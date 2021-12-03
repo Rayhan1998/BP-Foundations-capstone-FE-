@@ -1,11 +1,13 @@
 import React from "react";
 import MealBox from "../mealBox/mealBox.component";
 import "./mealsContainer.styles.css";
-
+import { Heading } from "@chakra-ui/react";
 export default function MealsContainer() {
   return (
     <section className="meals-container">
-      <h2>Meals of the day</h2>
+      <Heading pb="10px" color="white">
+        Meals of the day
+      </Heading>
       <section className="meal-of-day">
         <MealBox
           title="Breakfast"
@@ -28,7 +30,9 @@ export default function MealsContainer() {
           image="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80"
         />
       </section>
-      <h2>World cuisines</h2>
+      <Heading pb="10px" color="white">
+        World cuisines
+      </Heading>
       <section className="world-cuisines">
         <MealBox
           title="American"

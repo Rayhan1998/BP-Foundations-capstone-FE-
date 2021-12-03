@@ -52,3 +52,10 @@ npm run start
 - Frontend Framwork: React
 - Servers: Express,Node
 - Other: Axios,Knex as sql query builder
+
+## MVP
+
+- User can search for recipes
+- User can find recipes by choosing a catigory from the given options
+- User can view details of a recipe
+- User can save recipe to a list

@@ -9,7 +9,6 @@ function ContextProvider(props) {
   const [userData, setUserData] = useState("");
   const [savedRecipes, setSavedRecipes] = useState([]);
 
-  console.log(savedRecipes);
   return (
     <Context.Provider
       value={{

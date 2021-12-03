@@ -10,7 +10,7 @@ function Homepage() {
       <Navbar />
       <div className="middle">
         <h1>Discover Foods from all over the world</h1>
-        <p>Search from over 2 million recipe</p>
+        <p>Search from over 2 million recipes</p>
         <SearchInput />
       </div>
 
