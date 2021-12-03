@@ -59,3 +59,7 @@ npm run start
 - User can find recipes by choosing a catigory from the given options
 - User can view details of a recipe
 - User can save recipe to a list
+
+# Wireframee
+
+link: https://www.figma.com/file/ioS9ytRNqEid0Xe1Q8bgng/foody?node-id=0%3A1
